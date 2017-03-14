@@ -4,7 +4,7 @@ A limited pokemon rest api built with spring boot using pokeapi.co for pokemon d
 
 GET pokemon/{name Or id}
   Will return a json response consisiting of the id, name, stats and moves that a pokemon has.
-  The results of the request are cached, so lookups of the same pokemon will not have to make
+  The results of the request are cached, so subsequent searches of the same pokemon will not have to make
   a complete round trip to pokeapi.co, speeding up requests.
   If a name Or id doesn't exist, an error message is returned
 
